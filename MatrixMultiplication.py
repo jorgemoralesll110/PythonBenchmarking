@@ -49,6 +49,6 @@ def matrix_multiplication(n):
     print(f"CPU used: {cpu_used:.2f}%")
 
 # Run the function for different matrix sizes
-matrix_sizes = [10, 100, 1000, 10000]
+matrix_sizes = [10, 50, 150, 300, 450, 500, 650, 800, 1000]
 for size in matrix_sizes:
     matrix_multiplication(size)
